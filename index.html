@@ -16,22 +16,70 @@
     
   }
   
-  #title {
+  #title1 {
+    font-family: monospace;
+    font-size: 60px;
+  }
+  
+  #title2 {
+    font-family: monospace;
+    font-size: 60px;
     width: 100%;
     height: 100%;
     display: flex;
-    transition-delay: 0.5s
     
   }
   
-  #title:hover {
-    font-size: 50px ;
+  .title {
+    text-align: center;
+  }
+  
+  #title1, #title2 {
+    
+    display: inline;
+  }
+  
+  #title2:hover {
     font-family: monospace;
     animation: textColorChange 5s infinite;
 
   }
 
+  #comp {
+    
+    width: 1000px;
+    display: block;
+    margin: auto;
+    
+  }
   
+/*   .comp1 {
+    
+    align-items: center;
+    justify-content: center;
+  }
+   */
+  .messa {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*     position: relative; */
+    width: 1000px;
+    height: 1000px; /* Adjust height */
+    background: url('https://i.imgur.com/4TrjPLU.png') center no-repeat; /* Image as background */
+    background-size: contain;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+  #mess {
+    
+    position: relative;
+    bottom: 140px;
+    font-family: monospace;
+    font-size: 20px
+  }
   #hope {
     
     background-color: hsl(212, 79%, 80%);
@@ -89,8 +137,28 @@
   
 </style>
 <body>
+  <div class="title">
+    <h1 id="title1"> Welcome to  </h1>
+    <h1 id="title2"> The Internet </h1>
+  </div>
+
+<!--   <div class="comp1">
+    <img id="comp" src="https://i.imgur.com/4TrjPLU.png" alt="old computer">
+  </div> -->
+
+  <div class="messa">
+    <p id="mess">
+    
+    You have one (1) new message!
+  </p>
   
-  <h1 id="title"> Dear Internet, </h1>
+  </div>
+  
+  
+  
+  
+  
+  
 
   <p id="hope">
   
@@ -107,9 +175,9 @@
   I would like to thank you for entertaining me.
   </p>
   
-  <img id="pop" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTYzMWE5MDJsdW5oZml4dHUzdHRrYnNuYW54N2VwZzM0ZTZzczkxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3ohhwE7D46IAJ6jq5W/giphy.gif" alt="description of image">
-  
-  <img id="pop1" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTYzMWE5MDJsdW5oZml4dHUzdHRrYnNuYW54N2VwZzM0ZTZzczkxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3ohhwE7D46IAJ6jq5W/giphy.gif" alt="description of image">
+<!--   <img id="pop" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTYzMWE5MDJsdW5oZml4dHUzdHRrYnNuYW54N2VwZzM0ZTZzczkxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3ohhwE7D46IAJ6jq5W/giphy.gif" alt="description of image">
+   -->
+<!--   <img id="pop1" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTYzMWE5MDJsdW5oZml4dHUzdHRrYnNuYW54N2VwZzM0ZTZzczkxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3ohhwE7D46IAJ6jq5W/giphy.gif" alt="description of image"> -->
   
   Sure, perhaps this didn’t always take the most moral avenue, but you made sure I always had <a href="https://libgen.is/" target="_blank">something to read</a> and access to the <a href="https://ww25.soap2day.day/" target="_blank">newest episode of my favorite show</a>.
   
