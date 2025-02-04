@@ -1,5 +1,7 @@
 <!-- CHATGPT HELP: https://chatgpt.com/share/67a02464-9f7c-8007-95b8-339c6d44c6b7 -->
 
+<!-- CHATGPT HELP PART 2: https://chatgpt.com/share/67a05b6d-4630-8007-bf5f-c4288176f8eb -->
+
 
 <style>
 
@@ -53,6 +55,28 @@
     animation: textColorChange 5s infinite;
 
   }
+  
+  .image-container {
+    position: relative;
+  }
+
+  .image-container img {
+    display: none;
+    position: absolute;
+    width: 550px; /* Adjust image size */
+    height: auto;
+    
+  }
+
+  .image1 { top: 20px; left: 30px; }
+  .image2 { top: 50px; right: 30px; }
+  .image3 { top: 50px; left: -150px; }
+  .image4 { top: 100px; left: 200px; }
+
+        /* Show images when hovering over the link */
+  .title:hover .image-container img {
+    display: block;
+        }
 
   .messa {
     
@@ -92,6 +116,12 @@
   <div class="title">
     <h1 id="title1"> Welcome to  </h1>
     <h1 id="title2"> <a id="int" href="https://www.youtube.com/watch?v=k1BneeJTDcU&ab_channel=boburnham" target="_blank"> The Internet</a> </h1>
+    <div class="image-container">
+            <img src="https://cdn.britannica.com/18/232818-138-F3F3762E/did-you-know-history-of-the-internet.jpg?w=800&h=450&c=crop" class="image1" alt="web page http">
+            <img src="https://media.licdn.com/dms/image/v2/D4D12AQGSJ6gtOB_Agw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1693627579652?e=2147483647&v=beta&t=iUOFNIvF9xGj_hlpHoFAbWl4ZWAoIDS5gwb3ofv8jc0" class="image2" alt="woman holding phone">
+            <img src="https://expertmoney.co.za/wp-content/uploads/2023/10/HERO-IMAGE-THE-RISE-OF-INTERNET-AND-SOCIAL-MEDIA.jpg" class="image3" alt="boy using internet">
+            <img src="your-image4.jpg" class="image4" alt="Image 4">
+    </div>
   </div>
 
   <div class="messa">
