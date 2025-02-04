@@ -94,7 +94,14 @@
     top: 70%; /* 50% from the top */
     left: 50%; /* 50% from the left */
     transform: translate(-50%, -50%); /* Adjust to truly center it */
+
   }
+  
+  @keyframes appearFlash {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0.7; }
+    }
   
   #mess {
     
@@ -103,6 +110,8 @@
     font-family: monospace;
     font-size: 20px;
     color: white;
+    opacity: 0; /* Start invisible */ 
+    animation: appearFlash 1s ease-in-out 3s forwards;
   }
   
   #messag {
